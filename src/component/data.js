@@ -170,7 +170,7 @@ let employee = [
         name: "Vinay",
         age: 27,
         department: "Deployment",
-        status: " Not Active",
+        status: "Not Active",
         phone_no: 238905,
         emailAddress: "vinay@gmail.com",
     },
