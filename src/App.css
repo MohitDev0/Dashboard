@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
+#totalemployee {
+    padding-top: 3px;
+    padding-left: 33px;
+    width: 291px;
+    height: 444px;
+    border-radius: 22px;
+    background-color: #bbf0ff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#activeemployee {
+    padding-top: 3px;
+    padding-left: 18px;
+    width: 305px;
+    height: 390px;
+    border-radius: 22px;
+    background-color: #bbf0ff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+td {
+    padding: 0 12px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+th {
+    padding: 0px 5px;
 }
 
-.App-link {
-  color: #61dafb;
+img {
+    width: 13px;
+    height: 12px;
+    margin-left: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#addEmployee {
+    border-radius: 24px;
+    padding: 8px 0px;
+    width: 183px;
+    font-size: 16px;
+    margin-top: 12px;
+    background-color: rgb(0, 187, 255);
+}
+
+
+.body {
+    font-size: 1.5rem;
+}
+
+#confirm_h {
+    padding: 26px;
+    background-color: #7efd7e;
+    border-radius: 10px;
+}
+
+.fail {
+    padding: 26px;
+    background-color: #ea1c3b;
+    border-radius: 10px;
+}
+
+#okbtn {
+    margin-left: 12px;
+    width: 150px;
+    height: 41px;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #b4f2ff;
 }
