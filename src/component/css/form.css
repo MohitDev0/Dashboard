@@ -3,15 +3,6 @@ body {
     margin: 0px;
 }
 
-.ModalBackground {
-    width: 100%;
-    background-color: rgba(200, 200, 200);
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    display: flex;
-    justify-content: center;
-}
 
 .Modal {
     width: 500px;
