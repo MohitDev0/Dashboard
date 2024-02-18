@@ -1,7 +1,6 @@
 Link : https://dashboard-two-brown-66.vercel.app/
 
 # Technologies Used
-  List the technologies and frameworks used in building your website.
     javascript
     React
     
