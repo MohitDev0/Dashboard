@@ -69,9 +69,11 @@ img {
 }
 
 .parent_container {
-    margin: 20px;
     display: flex;
     gap: 20px;
+    margin: 20px;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
 }
 
 input[type=text]:focus {
