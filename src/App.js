@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./app.css";
-// import employee from "./component/data";
+import "./App.css";
 import TotalEmployee from "./component/total_employee";
 import ActiveCard from "./component/active_card";
 import Modal from "./component/model";
@@ -9,7 +8,6 @@ const { employee } = require("./component/data");
 employee.filter((elm) => {
     return localStorage.setItem(elm.name, JSON.stringify(elm));
 })
-
 
 function App() {
     const [openModel, setOpenModel] = useState(false);
@@ -27,8 +25,8 @@ function App() {
 
     }
     return (
-        <div style={{ display: "flex" }}>
-            <div>
+        <div className="parent_container">
+            <div className="parent_inner_container">
                 <TotalEmployee />
                 <ActiveCard />
                 <button id="addEmployee" onClick={() => {
@@ -38,7 +36,7 @@ function App() {
                 }}>Add Employee</button>
                 {openModel && <Modal closeModal={setOpenModel} />}
             </div>
-            <div>
+            <div className="parent_userTable">
                 <UserTable handlestatus={HandleStatus} change={setchange} />
             </div>
         </div>

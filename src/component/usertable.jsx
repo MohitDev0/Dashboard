@@ -91,7 +91,7 @@ function UserTable({ handlestatus, change }) {
     }
 
     return (
-        <div>
+        <div className="main_container" >
             <div id="search">
                 <input type="text" placeholder="search" onChange={handleSearchbar}></input>
             </div>
