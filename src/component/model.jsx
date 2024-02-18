@@ -65,7 +65,7 @@ function Model({ closeModal }) {
 
                 {!navigate &&
                     <div>
-                        <div className="body">
+                        <div className="body_container">
                             <Form SubmitForm={submitform} CloseModal={closeModal} props={blank} />
                         </div>
                     </div>

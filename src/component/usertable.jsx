@@ -135,7 +135,7 @@ function UserTable({ handlestatus, change }) {
                     })}
                 </tbody>
             </table>
-            <div className="body">
+            <div className="body_container">
                 {EditUser && <Form CloseModal={setEditUser} SubmitForm={updateUser} props={edata} />}
             </div>
         </div>
